@@ -1,0 +1,8 @@
+{
+  "name": "aop-level-editor",
+  "version": "0.0.0",
+  "description": "Edits the levels of the an-other-place game",
+  "author": "Huw Griffiths",
+  "dependencies": {
+  }
+}
