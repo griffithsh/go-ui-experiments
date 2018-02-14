@@ -67,10 +67,10 @@ func main() {
 	// Create window
 	var w *astilectron.Window
 	if w, err = a.NewWindow("http://"+clientHost, &astilectron.WindowOptions{
-		Title:  astilectron.PtrStr("go-ui-experiments"),
+		Title:  astilectron.PtrStr("aop-level-editor"),
 		Center: astilectron.PtrBool(true),
-		Height: astilectron.PtrInt(600),
-		Width:  astilectron.PtrInt(600),
+		Height: astilectron.PtrInt(480),
+		Width:  astilectron.PtrInt(640),
 	}); err != nil {
 		astilog.Fatal(errors.Wrap(err, "new window failed"))
 	}
